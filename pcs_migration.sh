@@ -26,7 +26,7 @@ find . -type f -name '*.bpmn' -exec sed -i 's/<bpmn:activationCondition xsi:type
 echo "Tranforming Update Tasks into Service Tasks"
 find . -type f -name '*.bpmn' -exec sed -i 's/<bpmnext:StringFeature value=\"UPDATE_OUTCOME\" name=\"updateType\"\/>//g' {} +
 
-echo "Renaming all BPM project files to .zip file"
+echo "Renaming all original BPM project files to .zip files"
 find . -type f -name '*.exp' -exec rename 's/\.exp/.zip/' '{}' \;
 
 echo "Compressing all directories after changes were properly applied to *.xml and *.bpmn files to create PCS enabled project files (.exp)"
