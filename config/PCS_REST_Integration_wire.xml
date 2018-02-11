@@ -1,0 +1,4 @@
+   <wire>
+      <source.uri>/Services.Externals.PCS_REST_Integration.reference</source.uri>
+      <target.uri>PCS_REST_Integration</target.uri>
+   </wire>
