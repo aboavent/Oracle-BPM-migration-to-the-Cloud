@@ -1,7 +1,0 @@
-                <bpmnext:Conversations>
-                    <bpmnext:Conversation id="CONVERSATION210216009727" type="service_call">
-                        <bpmnext:ServiceCallConversationDefinition>
-                            <bpmnext:serviceRef refType="namespaced" name="PCS_REST_Integration" namespace="http://xmlns.oracle.com/bpm/interfaceObject/Services/Externals/PCS_REST_Integration.Interface" elementType="TYPE" implementationType="interfaceObject"/>
-                        </bpmnext:ServiceCallConversationDefinition>
-                    </bpmnext:Conversation>
-                </bpmnext:Conversations>
