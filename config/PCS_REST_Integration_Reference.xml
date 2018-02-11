@@ -1,4 +1,0 @@
-   <reference name="PCS_REST_Integration">
-      <interface.wadl interface="http://www.oracle.com/wadl/PCS_REST_Integration#wsdl.interface(PCS_REST_Integration)"/>
-      <binding.rest config="WADLs/PCS_REST_Integration.wadl" location="https://ladpcs-gse00009991.process.us2.oraclecloud.com"/>
-   </reference>
