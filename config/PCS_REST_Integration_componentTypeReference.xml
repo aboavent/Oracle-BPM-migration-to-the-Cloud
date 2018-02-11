@@ -1,0 +1,5 @@
+    <componentType>
+         <reference name="Services.Externals.PCS_REST_Integration.reference" ui:wsdlLocation="WADLs/PCS_REST_Integration.wadl">
+            <interface.wadl interface="http://www.oracle.com/wadl/PCS_REST_Integration#wsdl.interface(PCS_REST_Integration)"/>
+         </reference>
+    </componentType>
