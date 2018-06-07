@@ -1,0 +1,3 @@
+                    <bpmnext:Conversational conversation="CONVERSATION210216009727">
+                        <bpmnext:ServiceCallConversationalDefinition operation="getProcessDefinitions" resourceId="ProcessDefinitions"/>
+                    </bpmnext:Conversational>
